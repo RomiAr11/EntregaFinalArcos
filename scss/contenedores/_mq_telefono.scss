@@ -1,0 +1,71 @@
+/*MQ  para telefono*/
+
+@media screen and (min-width: 480px) and (max-width:600px) {
+
+    /*Estilos de main quienes somos*/
+    .quienes-somos {
+        display: block;
+    }
+
+    .quienes-somos-p {
+        display: none;
+
+    }
+
+    .imgquienes-somos {
+        display: none;
+    }
+
+    /*Estilos de header index*/
+
+    .Menu {
+        display: flex;
+        align-items: center;
+        gap: 20rem;
+        background-color: $color-recuadro;
+        border-radius: 15px;
+        width: 200px;
+    }
+
+
+
+    /*Estilos de main index*/
+
+    main {
+        h2 {
+            font-size: 1rem;
+        }
+
+        .carrusel {
+            display: inline-block;
+            align-items: center;
+            align-self: center;
+            width: 20rem;
+        }
+    }
+
+
+
+
+    /*Estilos de main contacto*/
+
+    main {
+        .Formulario {
+            display: block;
+            align-content: center;
+            border: none;
+            text-align: center;
+            font-size: 1rem;
+            gap: 10px;
+
+
+        }
+
+        .contacto{
+            width: 200px;
+        }
+
+
+    }
+
+}

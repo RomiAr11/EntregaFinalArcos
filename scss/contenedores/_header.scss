@@ -1,0 +1,29 @@
+/*Estilos del header*/ 
+
+header{
+    padding: 30px;
+    text-align: center;
+    div{
+        img:hover{
+            transform: scale(1.5);
+        }
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+         h1 p{
+        margin: 20px;
+    }
+    img{
+        width: 150px;
+    }
+    }
+
+   
+
+ 
+    }
+   

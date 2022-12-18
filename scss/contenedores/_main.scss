@@ -1,0 +1,69 @@
+/*Estilos de main*/ 
+
+main{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    border: 10px dotted $color-recuadro;
+    h2{
+        text-align: center;
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+    .carrusel{
+        display: inline-block;
+        align-items: center;
+        align-self: center;
+        width: 500px;
+    }
+    
+    .ubicacion{
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .contacto{
+        width: 300px;
+    }
+
+   
+    .Formulario{
+        display: block;
+        font-size: 1rem;
+        margin: 30px;
+        padding: 30px;
+        border: dotted $color-recuadro;
+        text-align: center
+    }
+
+  
+    
+    .boton{
+        display: block;
+        text-align: center;
+        @include estilosbotones; 
+    }
+    
+    .quienes-somos{
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(2, 500px);
+        font-size: 1.5rem;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .imgquienes-somos{
+        width: 300px;
+    }
+    
+    .quienes-somos-img{
+        width: 350px;
+    }
+
+    iframe{
+        width: 500px;
+    }
+    
+
+}

@@ -1,0 +1,26 @@
+/*Reset*/ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos del body*/ 
+
+body{
+    background-color: #EDB98E; 
+}
+
+//importando archivos secundario
+
+@import "utilidades/variables";
+@import "utilidades/mixin"; 
+@import "contenedores/header";
+@import "contenedores/main";
+@import "contenedores/footer"; 
+@import "contenedores/mq_escritorio";
+@import "contenedores/mq_telefono";
+
+
+

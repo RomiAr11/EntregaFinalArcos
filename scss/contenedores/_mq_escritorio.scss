@@ -1,0 +1,50 @@
+/*MQ para escritorio*/
+
+@media screen and (min-width: 1000px) {
+    /*Estilos del header*/
+
+    header {
+        div {
+            display: grid;
+            grid-template-columns: 100px 550px;
+            grid-template-rows: 100px 50px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        div img:hover {
+            transform: scale(1.8);
+        }
+
+    }
+
+    /*Estilos de main*/
+main{
+    .galeria{
+        display: flex;
+        margin-left: 370px;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+       
+    }
+
+    .carousel-item{
+        width: 500px;
+    }
+    
+}
+    
+    .quienes-somos {
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(2, 500px);
+        font-size: 1.5rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
